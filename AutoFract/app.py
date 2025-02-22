@@ -29,7 +29,7 @@ def main():
     confidence = st.sidebar.slider("Confianza", min_value=0.0, max_value=1.0, value=0.35)
         
     img_file_buffer = st.sidebar.file_uploader("Sube una imagen", type=['jpg','jpeg','png'], key=0)
-    DEMO_IMAGE = r"C:\Users\Samuel Castro\Desktop\AD\IMG0002444.jpg"
+    DEMO_IMAGE = os.path.join(os.path.dirname(__file__), "IMG0002444.jpg")
     
     if img_file_buffer is not None:
         # Convertir el contenido a un arreglo numpy
