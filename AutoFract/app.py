@@ -3,6 +3,7 @@ import cv2 as cv
 import numpy as np
 from PIL import Image
 import detect
+import os
 
 def main():
     # Configuración de la sidebar con estilo
