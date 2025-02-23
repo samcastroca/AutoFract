@@ -36,5 +36,5 @@ def predict(img, confidence, st):
         im = Image.fromarray(im_array[..., ::-1])  # Convertir a RGB para mostrar correctamente
     
     st.subheader('Imagen de Salida')
-    st.image(im, channels="BGR", use_column_width=True)
+    st.image(im, channels="BGR", use_container_width=True)
 
