@@ -4,6 +4,8 @@ import numpy as np
 from PIL import Image
 import detect
 import os
+import warnings
+warnings.filterwarnings("ignore", message=".*use_column_width.*")
 
 
 
