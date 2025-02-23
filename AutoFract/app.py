@@ -1,7 +1,3 @@
-import warnings
-warnings.filterwarnings("ignore", message=".*use_column_width.*")
-
-
 import streamlit as st
 import cv2 as cv
 import numpy as np
@@ -49,7 +45,7 @@ def main():
         image = np.array(Image.open(DEMO_IMAGE))
     
     st.sidebar.text("Imagen Original")
-    st.sidebar.image(image, use_column_width=True)
+    st.sidebar.image(image, use_container_width=True)
         
     # Ejecutar la detección y mostrar el resultado
     detect.predict(img, confidence, st)
