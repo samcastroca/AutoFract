@@ -18,7 +18,7 @@ def predict(img, confidence, st):
         st: Objeto Streamlit para mostrar los resultados.
     """
     # Asegúrate de que la ruta esté definida correctamente. Puedes usar una cadena cruda o escapar las barras.
-    modelo_path = os.path.join(os.path.dirname(__file__), "best(2).pt")
+    model_path = os.path.join(os.path.dirname(__file__), "best(2).pt")
     # Alternativamente:
     # model_path = "C:\\Users\\Samuel Castro\\Desktop\\AD\\Best(2).pt"
     
