@@ -42,7 +42,7 @@ def main():
         image = np.array(Image.open(DEMO_IMAGE))
     
     st.sidebar.text("Imagen Original")
-    st.sidebar.image(image, use_column_width=True)
+    st.sidebar.image(image, use_container_width=True)
         
     # Ejecutar la detección y mostrar el resultado
     detect.predict(img, confidence, st)
