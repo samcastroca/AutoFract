@@ -1,3 +1,8 @@
+streamlit==1.32.0
 Pillow==9.5.0
 opencv-python-headless==4.8.0.76
-ultralytics
+numpy==1.23.5  # Versión compatible con OpenCV y Ultralytics
+ultralytics==8.0.203
+torch==2.0.1  # Requerido por Ultralytics
+torchvision==0.15.2
+tqdm==4.66.1  # Dependencia común
