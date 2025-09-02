@@ -3,11 +3,6 @@ import os
 import cv2 as cv
 from PIL import Image
 
-def train():
-    model = YOLO('yolov8n.yaml')  # Construir un nuevo modelo desde cero
-    model.train(data="D:\\computer-vision\\projects\\streamlit-dashboard\\detection\\data\\data.yaml", epochs=100)
-    print("[INFO] Entrenamiento del modelo de detección completado!")
-
 def predict(img, confidence, st):
     """
     Función para realizar la detección utilizando el modelo preentrenado.
@@ -17,10 +12,9 @@ def predict(img, confidence, st):
         confidence: Umbral de confianza para la detección.
         st: Objeto Streamlit para mostrar los resultados.
     """
-    # Asegúrate de que la ruta esté definida correctamente. Puedes usar una cadena cruda o escapar las barras.
+   
     model_path = os.path.join(os.path.dirname(__file__), "best(2).pt")
-    # Alternativamente:
-    # model_path = "C:\\Users\\Samuel Castro\\Desktop\\AD\\Best(2).pt"
+ 
     
     model = YOLO(model_path)
     
@@ -37,4 +31,5 @@ def predict(img, confidence, st):
     
     st.subheader('Imagen de Salida')
     st.image(im, channels="BGR", use_container_width=True)
+
 
