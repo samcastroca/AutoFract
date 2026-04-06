@@ -13,7 +13,7 @@ def predict(img, confidence, st):
         st: Objeto Streamlit para mostrar los resultados.
     """
    
-    model_path = os.path.join(os.path.dirname(__file__), "best(2).pt")
+    model_path = os.path.join(os.path.dirname(__file__), "best.pt")
  
     
     model = YOLO(model_path)
