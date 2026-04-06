@@ -47,6 +47,23 @@ The model was trained using data augmentation to address class imbalance, and ev
 
 The F1-Confidence curve peaks at **0.91** at a confidence threshold of **0.445**, indicating robust detection performance across a wide operating range.
 
+### Training Curves
+ 
+The following plots show the evolution of key metrics across training epochs:
+ 
+<p align="center">
+  <img src="assets/precision.png" width="22%" alt="Precision"/>
+  <img src="assets/recall.png" width="22%" alt="Recall"/>
+  <img src="assets/map50.png" width="22%" alt="mAP@0.5"/>
+  <img src="assets/map50-95.png" width="22%" alt="mAP@0.5-0.95"/>
+</p>
+ 
+### F1-Confidence Curve
+ 
+<p align="center">
+  <img src="assets/f1_confidence.png" width="55%" alt="F1-Confidence Curve"/>
+</p>
+
 ---
 
 ## ⚙️ Methodology
