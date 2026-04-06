@@ -111,28 +111,11 @@ streamlit run AutoFract/app.py
 ## 👥 Authors
 
 - **Samuel Castro Carmona** — [@samcastroca](https://github.com/samcastroca)
-- **Sofía Marín Franco**
+- **Sofía Marín Franco** - [@somarinf](https://github.com/somarinf)
 
 *Data Analytics Integrator Project*
 
----
 
-## 📄 Citation
-
-If you use this project or find it helpful, please consider citing the FracAtlas dataset:
-
-```bibtex
-@article{abedeen2023fracatlas,
-  title     = {FracAtlas: A Dataset for Fracture Classification, Localization and Segmentation of Musculoskeletal Radiographs},
-  author    = {Abedeen, Iftekharul and Rahman, Md. Ashiqur and Prottyasha, Fatema Zohra and Ahmed, Tasnim and Chowdhury, Tareque Mohmud and Shatabda, Swakkhar},
-  journal   = {Scientific Data},
-  volume    = {10},
-  pages     = {521},
-  year      = {2023},
-  publisher = {Nature Publishing Group},
-  doi       = {10.1038/s41597-023-02432-4}
-}
-```
 
 ---
 
